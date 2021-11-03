@@ -1,0 +1,15 @@
+ SQL queries:
+ ===============
+ Create a Table with name moviedetails:
+ 
+ ==>>  create Table moviedetails(moviename varchar2(100),leadactor varchar2(100),actress varchar2(100),yearofrelease int,directorname varchar2(100));
+ 
+ Insert data into the table:
+
+ ==>>   INSERT INTO moviedetails VALUES('Bahubali','Prabhas','Anushka',2016,'Rajamouli');
+ ==>>   INSERT INTO moviedetails VALUES('Kode','Prithviraj','Nazriya',2018,'Anjali');
+ ==>>   INSERT INTO moviedetails VALUES('Srimantudu','Mahesh Babu','Sruthi Hassan',2015,'Siva');
+ 
+ Retrieve the data:
+ 
+ ==>>   select * from moviedetails
